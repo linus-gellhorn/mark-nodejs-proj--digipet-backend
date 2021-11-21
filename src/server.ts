@@ -40,7 +40,7 @@ app.get("/digipet", (req, res) => {
     });
   } else {
     res.json({
-      message: "You don't have a digipet yet! Try hatching one with /hatch",
+      message: "You don't have a digipet yet! Try hatching one.",
       digipet: undefined,
     });
   }
@@ -88,8 +88,7 @@ app.get("/digipet/walk", (req, res) => {
     });
   } else {
     res.json({
-      message:
-        "You don't have a digipet to walk! Try hatching one with /digipet/hatch",
+      message: "You don't have a digipet to walk! Try hatching one.",
     });
   }
 });
@@ -104,8 +103,7 @@ app.get("/digipet/train", (req, res) => {
     });
   } else {
     res.json({
-      message:
-        "You don't have a digipet to train! Try hatching one with /digipet/hatch",
+      message: "You don't have a digipet to train! Try hatching one.",
     });
   }
 });
@@ -121,8 +119,7 @@ app.get("/digipet/feed", (req, res) => {
     });
   } else {
     res.json({
-      message:
-        "You don't have a digipet to feed! Try hatching one with /digipet/hatch",
+      message: "You don't have a digipet to feed! Try hatching one.",
     });
   }
 });
@@ -137,8 +134,7 @@ app.get("/digipet/ignore", (req, res) => {
     });
   } else {
     res.json({
-      message:
-        "You don't have a digipet to ignore! Try hatching one with /digipet/hatch",
+      message: "You don't have a digipet to ignore! Try hatching one.",
     });
   }
 });
